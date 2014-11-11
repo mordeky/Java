@@ -10,6 +10,8 @@ public class TestEnum {
 	Signal color = Signal.RED;
 
 	public void change() {
+		
+
 		switch (color) {
 		case RED:
 			color = Signal.GREEN;
